@@ -1,0 +1,1276 @@
+/***
+    font-family: "advent-pro", sans-serif;
+    font-family: "abel", sans-serif;
+    font-family: "antic", sans-serif;
+**/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/****ESTILOS PARA CELULAR*****/
+
+.cabezote{
+    padding: 12px 0;
+    background-color:white;
+}
+.contenedor{
+    width: 95%;
+    margin: auto;
+}
+.logo{
+    display: table;
+    margin: auto;
+}
+.logo img{
+    width: 100%;
+}
+
+/****MENÚUUU*****/
+.barras{
+    color: #ff4459;
+    position: absolute;
+    top: 42px;
+    left: 0;
+    z-index: 1;
+    font-size: 30px;
+}
+
+.cabezote .contenedor{
+    position: relative;
+}
+.bmenu .menu{
+    list-style-type: none;
+    position: absolute;
+    left: -2.5%;
+    width: 105%;
+    top: 100px;
+    display: none;
+    z-index: 1;
+}
+.bmenu .menu li{
+    background-color: #d6d6d6;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+.bmenu .menu li a{
+    color: black;
+    text-decoration: none;
+    font-family: "abel", sans-serif;
+    font-size: 18px;
+    display: block;
+}
+.bmenu .menu li a.actual{
+    color: #ff4459;
+}
+.bmenu .mostrar-menu{
+    display: block;
+}
+
+.caja-video{
+    position: relative;
+    margin-top: -84px;
+    z-index: -1;
+}
+.caja-video video{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+}
+.video {
+    position: relative;
+    z-index: -1;
+}
+
+.txt-video{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "advent-pro", sans-serif;
+    color: #ff4459;
+    font-size: 40px;
+    padding: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.50);
+    /*border: 1px solid white;*/
+    /*box-shadow: 0 2px 8px  rgba(0, 0, 0, 0.50);*/
+}
+/***********SLIDER*****/
+.slides1 li{
+    position: relative;
+}
+.slides1 img{
+    width: 100%;
+}
+.slides1 .flex-caption {
+  width: 100%;
+    font-family: "advent-pro", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.50);
+    position: absolute;
+    bottom: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-content: center;
+}
+
+/*******CONTENIDO UNO INDEX*****/
+.contenido_uno h1{
+font-family: "advent-pro", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    padding-bottom: 20px;
+
+}
+.contenido_uno {
+    margin: 5% 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.contenido_uno h3, .contenido_dos h3, .contenido_tres h3, .contenido_cuatro h3, .contenido_tres_cyt h3, .dos_prs h3, .uno_disenos h2 {
+    font-family: "advent-pro", sans-serif;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.contenido_uno h4, .contenido_dos h4, .contenido_tres_cyt h4, .txt-prs h4{
+    font-family: "advent-pro", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.contenido_uno p, .contenido_dos p, .contenido_tres_cyt p{
+    font-family: "antic", sans-serif;
+    padding: 20px 30px;
+}
+.galeria-bnf{
+    display: block;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.galeria-bnf .icono-bnf{
+    padding: 20px 0;
+    border: 1px solid #bebebe;
+    margin: 50px 50px;
+}
+.icono-bnf img{
+    width: 18%;
+    margin-top: -20%;
+}
+/*****CONTENIDO DOS INDEX CELULAR*****/
+.contenido_dos{
+    background-image: url(../images/index/contenido_dos.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.dos{
+    background-color: rgba(255, 255, 255, 0.70);
+}
+.dos h3{
+    margin-left: 25%;
+}
+.contenido_dos .dos{
+    padding: 70px 30px;
+}
+.contenido_dos h4{
+    font-family: "advent-pro", sans-serif;
+    margin-top: -70px;
+    margin-left: 25%;
+}
+.contenido_dos p{
+    margin-left: 70px;
+}
+.contenido_dos p a{
+    text-decoration: none;
+    color: #ff4459;
+}
+.contenido_dos p a:hover{
+    color: #4973e5;
+}
+.txt-dos img{
+    width: 18%;
+}
+.foto-dos img{
+    visibility: hidden;
+    width: 0%;
+}
+
+/****CONTENIDO TRES INDEX CELULAR****/
+.contenido_tres{
+    margin-top: 8%;
+    padding: 0;
+    text-align: center;
+}
+
+.galeria-tres{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 50px 0
+}
+.galeria-tres img{
+    width: 100%;
+    height: auto;
+}
+.contenido_tres h4{
+    font-family: "advent-pro", sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 15%;
+    opacity: 1;
+    color: white;
+    width: 100%;
+}
+.contenido_tres p{
+    font-family: "abel", sans-serif;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    opacity: 1;
+    width: 100%;
+}
+
+.caja-txt{
+    background-color: #ff4459;
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    bottom: 0;
+}
+/****CONTENIDO CUATRO INDEX CELULAR****/
+.contenido_cuatro{
+    text-align: center;
+}
+.cuatro{
+    padding: 0 0 7%;
+}
+.contenido_cuatro h4{
+    font-family: sans-serif;
+    font-size: 40px;
+}
+.cuatro h3{
+    padding: 0 0 50px 0;
+}
+.testimonios{
+      padding: 30px 30px 0;
+}
+.col{
+  flex: 33.33%;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 40px 40px 0 40px;
+  background-color: rgba(74, 135, 255, 0.08);
+}
+.testimonios li{
+    list-style: none;
+    padding-bottom: 60px;
+}
+.testimonios .cliente{
+    display: flex;
+    flex-direction: column;
+    font-family: "antic", sans-serif;
+    padding: 10px;
+    color: #ff4459;
+}
+.contenido_cuatro p{
+    font-family: "antic", sans-serif;
+    padding: 20px 0;
+}
+.testimonios img{
+ width: 50%;
+  border-radius: 50%;
+}
+.stars{
+    color: #ff4459;
+    padding-top: 10px;
+}
+/*******CONTENIDO CINCO CELULAR********/
+.cinco iframe{
+    width: 100%;
+    height: 400px;
+}
+.cinco{
+    text-align: center;
+}
+.ubicacion{
+    background-color: #ff4459;
+    margin-top: -55%;
+    width: 100%;
+    margin: auto;
+}
+.ubicacion h3{
+    font-family: "abel", sans-serif;
+    font-size: 25px;
+    padding: 10px 0;
+    color: white;
+}
+.ubicacion h4{
+    font-family: "abel", sans-serif;
+    font-size: 18px;
+    padding-bottom: 0; 
+}
+.ubicacion p{
+    font-family: "abel", sans-serif;
+    font-size: 18px;
+    padding-bottom: 20px;  
+}
+/*******PIE CELULAR********/
+  .pie{
+        padding: 5% 0;
+        text-align: center;
+}
+.logo_pie img{
+    width: 30%;       
+}
+.autores{
+        text-align: center;
+        color: black;
+        font-size: 16px;
+        font-family: "antic", sans-serif;
+        font-weight: 300;
+}
+.redes ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        transition: all .2s;
+        padding: 20px 0;
+}
+.redes ul a{
+        color: black;
+}
+.redes li:not(:last-child){
+        margin-right: 50px;
+}
+.redes ul a:hover{
+        color: #f85b5b;;
+        font-size: 22px;
+}
+/*****HOJA CONTACTO CELULAR******/
+.formulario{
+    font-family: "abel", sans-serif;
+    padding: 30px 20px;
+    margin: 0 0 7%;
+}
+.formulario .contacto{
+    font-family: "advent-pro", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 30px;    
+}
+
+.formulario p{
+    padding-bottom: 30px;
+}
+form{
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    color: #6a6a6a;
+    padding: 20px;
+    border-radius: 10px;
+}
+.formulario input{
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+.formulario input, .formulario textarea{
+    outline: none;
+    border: none;
+    resize: none;
+    width: 100%;
+    padding: 15px 0px;
+    transition: all 300ms;  
+    border-bottom: 1px solid #858585;
+}
+.formulario textarea{
+    margin: auto;
+}
+input:focus, textarea:focus{
+    border-bottom-color: #000000;
+}
+.field{
+    width: 100%;
+    border-radius: 5px;
+}
+input::placeholder, textarea::placeholder{
+    opacity:0;
+}
+.formulario div{
+position: relative;
+}
+.formulario form div label{
+    position: absolute;
+    top: 10px;
+    pointer-events: none;
+    left: 0;
+    color: #999;
+    transition: .5s;
+}
+.formulario input:focus ~ label, 
+.formulario textarea:focus ~ label, 
+.formulario input:valid ~ label, 
+.formulario textarea:valid ~ label{
+    top:-12px;
+    left:0;
+    color: #f7497d;
+    font-size: 14px;
+    font-weight: bold;
+}
+.formulario input:focus,
+.formulario textarea:focus,
+.formulario textarea:valid{
+        border-bottom: 2px solid #f7497d;
+}
+/*****BOTÓN****/
+.formulario .btn{
+    border: none;
+    outline: none;
+    margin: auto;
+    margin-top: 50px;
+    font-family: "abel", sans-serif;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 18px;
+    background: rgba(0, 0, 0, 0.55);
+    color: white;
+    width: 50%;
+}
+.formulario .btn-blue:hover {
+    background-color: rgba(255, 68, 89, 0.33);
+    color: rgba(0, 0, 0, 0.62);
+}
+.formulario .btn-blue:active{
+    background-color: rgba(255, 68, 89, 0.90);
+        color: white;
+}
+
+/*****MAPA CONTACTO***/
+/*****.cinco_contacto iframe{
+    width: 100%;
+    height: 400px;
+}
+.cinco_contacto{
+    text-align: center;
+}
+.ubicacion_contacto{
+    background-color: #ff4459;
+    margin-top: -55%;
+    width: 100%;
+    margin: auto;
+}
+.ubicacion_contacto h3{
+    font-family: "abel", sans-serif;
+    font-size: 25px;
+    padding: 10px 0;
+    color: white;
+}
+.ubicacion_contacto h4{
+    font-family: "abel", sans-serif;
+    font-size: 18px;
+    padding-bottom: 0; 
+}
+.ubicacion_contacto p{
+    font-family: "abel", sans-serif;
+    font-size: 18px;
+    padding-bottom: 20px;  
+}****/
+
+
+/*********HOJA COMO EMPIEZO********/
+
+/********CONTENIDO UNO COMO EMPIEZO CELULAR*****/
+.galeria-pasos{
+    display: block;
+    flex-direction: column;
+    padding-top: 0;
+}
+.galeria-pasos .img-pasos{
+    padding:  0;
+    border: 1px solid #bebebe;
+    border-radius: 3px;
+    margin: 20px 50px 50px 50px;
+}
+.img-pasos img{
+    width: 90%;
+    margin: 23px;
+}
+/****CONTENIDO DOS COMO EMPIEZO CELULAR****/
+.contenido_dos_mtrl{
+    padding: 50px 0 150px;
+    text-align: center;
+    background-color: rgba(74, 135, 255, 0.08);
+}
+.contenido_dos_mtrl .dos_mtrl h3{
+    font-family: "advent-pro", sans-serif;
+    font-size: 30px;
+    padding: 0 0 70px;
+}
+.galeria-mtrl h4{
+    font-family: "advent-pro", sans-serif;
+    font-size: 30px;
+    padding: 20px 0 0 0;
+}
+.galeria-mtrl{
+position: relative;
+}
+.galeria-mtrl img{
+    width: 80%;
+    object-fit: cover;
+}
+.galeria-mtrl .mtrl-txt{
+    color: white;
+    background-color: #ff4459;
+    border-radius: 8px;
+    width: 35%;
+    padding: 10px;
+    transition: all .5s;
+    font-family: "advent-pro", sans-serif;
+    font-size: 25px;
+    margin: auto;
+}
+
+/******CONTENIDO TRES COMO EMPIEZO CONSEJOS Y TRUCOS CELULAR*****/
+.contenido_tres_cyt{
+    background-image: url(../images/comoempiezo/contenido_dos_ce.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.tres_cyt{
+    background-color: rgba(255, 255, 255, 0.70);
+}
+.tres_cyt h3{
+    margin-left: 20%;
+}
+.contenido_tres_cyt .tres_cyt{
+    padding: 70px 30px;
+}
+.contenido_tres_cyt h4{
+    margin-top: -70px;
+    margin-left: 20%;
+}
+.contenido_tres_cyt p{
+    margin-left: 60px;
+}
+.txt-tres-cyt img{
+    width: 18%;
+}
+/******HOJA DISENOS CELULAR*****/
+/****ACORDIÓN DISENOS CELULAR*****/
+.caja-slider{    
+width: 100%;
+    height: 80vh;
+    }
+
+/********GALERIA CELULAR******/
+.reticula{
+    padding: 60px 0;
+}
+.reticula h2{
+    color: black;
+    text-align: center;
+    font-family: "advent-pro", sans-serif;
+    font-size: 30px;    
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+    margin: 60px 0;
+    grid-gap: 10px;
+}
+.grid img{
+    width: 100%;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+}
+.items {
+        background-color: rgba(74, 135, 255, 0.08);
+    padding: 5px;
+    box-shadow: 0 0 6px rgba(255, 68, 89, 0.30);
+    border-radius: 3px;
+}
+.item1{
+    grid-area: 2/1/4/2;
+}
+.item11{
+    grid-area:1/1/2/3;
+    background-color: #ff4459;
+    color: white;
+    font-family: "advent-pro", sans-serif;
+    text-align: center;
+    padding: 10px 0;
+    }
+.item8{
+    grid-area: 5/1/5/3;
+}
+.item9{
+    grid-area: 6/2/8/3;
+}
+.item10{
+    grid-area: 8/1/9/3;
+}
+.reticula h1{
+font-family: "advent-pro", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+
+/*****CONTENIDO UNO DISENOS CELULAR****/
+.contenido_uno_disenos{
+    padding: 0 20px;
+    text-align: center;
+}
+.contenido_uno_disenos h1{
+font-family: "advent-pro", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+}
+.galeria-disenos{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 50px 0;
+}
+.galeria-disenos img{
+    width: 80%;
+    object-fit:cover;
+    transition: all .5s;
+}
+.contenido_uno_disenos h4{
+    font-family: "abel", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    top: 15%;
+    color: white;
+    transition: all .5s;
+    padding: 10px;
+    position: absolute;
+    background-color: #ff4459;
+    border-radius: 8px;
+    text-align: center;
+    width: 40%;
+}
+.contenido_dos_mtrl p{
+    font-family: "abel", sans-serif;
+    color: white;
+    font-size: 20px;
+    bottom: 20%;
+    transition: all .5s;
+    width: 100%;
+}
+
+.img-disenos h3{
+    color: #ff4459;
+    font-family: "advent-pro", sans-serif;
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+/***.galeria-mtrl:hover h3 {
+    opacity: 1;
+}
+.contenido_dos_mtrl img:hover {
+    filter: opacity(.3);
+}*/
+
+/******CONTENIDO DOS PRS CELULAR******/
+.dos_prs{
+    text-align: center;
+    margin: 30px 0 50px 0;
+    font-family: "antic", sans-serif;
+}
+.galeria-prs{
+    margin: 50px 0;
+    width: 100%
+}
+.galeria-prs img{
+    margin: auto;
+    width: 100%;  
+}
+.txt-prs h4{
+    color: #ff4459;
+    font: 25px;
+    width: 100%;
+    text-align: center;
+    transition: all .5s;
+    padding-top: 20px;
+}
+
+.txt-prs p{
+margin: 50px;
+}
+.box select{
+    border-radius: 3px;
+    padding: 10px;
+    font-family: "antic", sans-serif;
+    background-color: rgba(74, 135, 255, 0.08);
+    border: none;
+    font-size: 18px;
+    width: 50%;
+}
+.box:hover, .btn2:hover{
+    filter: opacity(.7);
+} 
+
+input[type="file"]{
+display: none;
+}
+
+.btn2 {
+    background-color: rgba(74, 135, 255, 0.08);
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+    margin: auto;
+}
+.dos_prs .btn {
+    border: none;
+    outline: none;
+    margin: auto;
+    margin-top: 50px;
+    font-family: "abel", sans-serif;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 18px;
+    background: rgba(0, 0, 0, 0.55);
+    color: white;
+    width: 150px;
+    padding: 8px;
+}
+
+.dos_prs .btn:hover {
+    background-color: rgba(255, 68, 89, 0.33);
+    color: rgba(0, 0, 0, 0.62);
+}
+.dos_prs .btn:active{
+    background-color: rgba(255, 68, 89, 0.90);
+        color: white;
+}
+
+
+/*********ESTILOS PARA TABLETA********/
+
+
+@media screen and (min-width: 768px){
+    .contenedor{
+        width: 90%;
+    }
+    .barras{
+        display: none;
+        font-size: 12px;
+    }
+    .bmenu .menu{
+        display: flex;
+        justify-content: space-around;
+        position: static;
+        margin-top: 20px;
+        z-index: 10;
+    }
+    .bmenu .menu li{
+        background: none;
+        border: none;
+        padding: 0 20px;
+    }
+    .bmenu .menu li a{
+        display: block;
+        padding: 10px;
+        border-bottom: 2px solid transparent;
+    }
+    .bmenu .menu li a:hover, .bmenu ul li .actual{
+        border-bottom: 2px solid #ff4459;
+        color: #ff4459;
+    }
+    
+/******SLIDER INDEX TABLETA*****/
+    .slides1 li{
+        height: 80vh;
+}
+    .slides1 .flex-caption{
+        font-size: 50px;
+    }
+/*******CONTENIDO UNO INDEX TABLETA********/
+   .galeria-bnf{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+.galeria-bnf .icono-bnf{
+    padding: 0 0;
+    border: 1px solid #bebebe;
+    margin: 30px 10px;
+}
+.icono-bnf img{
+    width: 20%;
+    margin-top: -10%;
+}
+    
+/*****CONTENIDO DOS INDEX TABLETA*****/
+.dos h3{
+    margin-left: 12%;
+    }
+.contenido_dos .dos{
+    padding: 30px 30px;
+}
+.contenido_dos h4{
+    font-family: "antic", sans-serif;
+    margin-top: -70px;
+    margin-left: 12%;
+}
+.contenido_dos p{
+    margin-left: 15%;
+}
+.contenido_dos p a{
+    text-decoration: none;
+    color: #ff4459;
+}
+.contenido_dos p a:hover{
+color: #4973e5;;
+    
+}
+.txt-dos img{
+    width: 10%;
+}
+ 
+/*******CONTENIDO TRES INDEX TABLETA*******/
+   
+    .contenido_tres{
+    height: 70vh;
+    width: 100%;
+    }
+.caja-galeria-tres{
+    position: relative;
+    width: 100%;  
+    height:100vh;
+}
+    .tres{
+        width: 100%;
+    }
+    .tres #img-tres-1{
+        position: absolute;
+        left: 0%;
+        top: 0;
+        width: 30%;
+    }
+    .tres #img-tres-2{
+        position: absolute;
+        left: 35%;
+        top: 0;
+        width: 30%;
+    }
+    .tres #img-tres-3{
+        position: absolute;
+        left: 35%;
+        top: 350px;
+        width: 30%;
+    }
+    .tres #img-tres-4{
+        position: absolute;
+        left: 70%;
+        top: 0;
+        width: 30%;
+    }
+    .caja-txt{
+    background-color: rgb(255, 68, 89);
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    transition: all .5s;
+}
+
+/****CONTENIDO CUATRO INDEX TABLETA****/
+    .cuatro{
+        background-color: rgba(74, 135, 255, 0.08);
+        padding-top: 7%;
+    }
+    .contenido_cuatro{
+        margin: 30% 0 0;
+    }
+    .testimonios ul{
+        display: flex;
+        flex-direction: row;
+        }
+    .testimonios ul li{
+        width: 100%;
+    }
+    .col{
+        background: none;
+    }
+
+ /******CONTENIDO CINCO INDEX TABLETA******/
+.cinco iframe{
+    width: 100%;
+    height: 400px;
+    outline: 1px solid #ff4459; 
+}
+.cinco{
+    background-color: #ff4459;
+    text-align: center;
+    display: flex;
+}
+.ubicacion h3{
+    font-family: "abel", sans-serif;
+    font-size: 30px;
+    padding: 10px 0;
+    color: white;
+}
+.ubicacion h4{
+    font-family: "abel", sans-serif;
+    font-size: 18px;
+    padding-bottom: 0; 
+}
+    
+/*******PIE TABLETA*******/
+.logo_pie img{
+    width: 20%;       
+}
+   
+/******HOJA COMO EMPIEZO TABLETA******/    
+    /******VIDEO TABLETA****/
+.txt-video{
+    font-size: 50px;
+
+}
+ /*******CONTENIDO TRES COMO EMPIEZO TABLETA*******/
+    .tres_cyt h3{
+    margin-left: 12%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+}
+    .contenido_tres_cyt .tres_cyt{
+        padding: 30px;
+    }
+.contenido_tres_cyt h4{
+    margin-left: 15%;
+}
+.contenido_tres_cyt p{
+    margin-left: 15%;
+}
+.txt-tres-cyt img{
+    width: 10%;
+}
+    /*****/
+    .galeria-pasos{
+    display: flex;
+    flex-direction: row;
+}
+.galeria-pasos .img-pasos{
+    padding:  0;
+    border: 1px solid #bebebe;
+    border-radius: 5px;
+    margin: 20px 20px 50px;
+    width: 100%;
+}
+.img-pasos img{
+    width: 90%;
+    margin: 4%;
+}
+    .dos h3{
+    margin-left: 12%;
+}
+.contenido_dos .dos{
+    padding: 30px 30px;
+}
+.contenido_dos h4{
+    font-family: "antic", sans-serif;
+    margin-top: -70px;
+    margin-left: 12%;
+}
+.contenido_dos p{
+    margin-left: 15%;
+}
+    /******HOJA DISENOS TABLETA*****/  
+    /*******GALERIA TABLETA*****/
+    .grid{
+    grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(4,150px);
+}
+    .item11{
+        grid-area: 2/2/3/4;
+    }
+    .items.item11{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+    color: white;
+        font-size: 25px;
+    }
+    .item4{
+        grid-area: 5/1/6/3;
+    }
+    .item8{
+        grid-area: 1/2;
+
+    }
+    .item10{
+        grid-area: 4/2/5/3;
+    }
+    .item9{
+        grid-area: 3/3/5/3;
+    }
+    
+/*****CONTENIDO UNO DISENOS TABLETA****/
+   .caja-galeria-disenos{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding: 50px 0;    
+}
+
+.galeria-disenos img{
+    width: 80%;
+    object-fit:cover;
+    transition: all .5s;
+} 
+    
+    /****CONTENIDO DOS PRS DISENOS TABLETA****/
+    .cajas-prs{
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+.galeria-prs{
+    width: 50%;
+}
+
+    .txt-prs{
+        margin: 70px ;
+    }
+.txt-prs h4{
+    text-align: center;
+    transition: all .5s;
+    padding-top: 20px;
+}
+.txt-prs p{
+    margin: 50px 0;
+
+}
+.txt-prs a {
+        text-decoration: none;
+        display: table;
+}
+
+/*****HOJA CONTACTO TABLETA******/
+    .hoja-contacto{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+    } 
+    .hoja-contacto p{
+        padding: 80px;
+    }
+
+}
+
+/*********ESTILOS PARA COMPU*****/
+
+@media screen and (min-width: 1200px){
+    .contenedor {
+        width: 80%;
+    }
+    .menu{
+        justify-content: center;
+    }
+    
+    .logo{
+        margin: auto 0;
+    }
+    .cabezote .contenedor{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .cabezote{
+    background-color: white;
+
+    }
+ /*****CONTENIDO UNO INDEX COMPUTADOR******/   
+    .galeria-bnf{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+.galeria-bnf .icono-bnf{
+    padding: 0 0;
+    border: 1px solid #bebebe;
+    margin: 30px 50px;
+}
+.icono-bnf img{
+    width: 20%;
+    margin-top: -10%;
+}
+/****CONTENIDO DOS INDEX COMPUTADOR****/
+    .txt-dos{
+        padding-right: 40%;
+    }
+    .dos{
+        width: 100%;
+    }
+    .foto-dos img{
+        height: 100%;
+        object-fit: cover;
+    }
+    .foto-dos img{
+    visibility: visible;
+        position: absolute;
+        object-fit: cover;
+        left: 70%;
+        bottom: 0;
+        width: 30%;
+        padding: 5px;
+    background-color: rgba(74, 135, 255, 0.08);
+    padding: 5px;
+    box-shadow: 0 0 6px rgba(255, 68, 89, 0.30);    }
+    .dos{
+        position: relative;
+    }    
+    .dos h3{
+        margin-top: 30px;
+        margin-bottom: 30px;
+}
+.contenido_dos p{
+    margin-bottom: 20px;
+}
+  
+   /*******CONTENIDO TRES INDEX COMPUTADOR*******/
+.caja-txt{
+    background: linear-gradient(45deg, #ff4459, rgba(255, 68, 89, 0.46));
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    /* bottom: .5%; */
+    opacity: 0;
+    transition: all .5s;
+    }
+    .galeria-tres:hover h4, .galeria-tres:hover p{
+        opacity: 1;
+    }
+    .galeria-tres:hover .caja-txt {
+    opacity: .9;
+    }
+    .tres #img-tres-3{
+    top: 420px;
+    }
+    
+    /***CONTENIDO CUATRO INDEX COMPUTADOR***/
+    /**** .contenido_cuatro{
+        margin: 27% 0 0;
+    }****/
+    .cuatro{
+        background: none;
+    }
+   /****CONTENIDO CINCO INDEX COMPUTADOR****/ 
+
+.cinco{
+    text-align: center;
+    display: flex;
+    background:none;
+    }
+    .ubicacion{
+        background: none;
+        color: black;
+    }
+        .ubicacion h3{
+    color: black;
+}
+   /******CONTENIDO DOS COMO EMPIEZO MTRL COMPUTADOR*****/
+    .contenido_dos_mtrl{
+        padding: 0 0 150px;
+    }
+    .contenido_dos_mtrl{
+            background: none;
+    }
+    .contenido_dos_mtrl{
+        margin: 0;
+    }
+   
+ /*******CONTENIDO TRES COMO EMPIEZO COMPUTADOR*******/
+    .contenido_tres_cyt h3{
+        margin-left: 7%;
+    }
+    .cajas-tres-cyt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    .cajas-tres-cyt .txt-tres-cyt{
+        width: 50%;
+        margin-top: 4%;
+    }
+ 
+ /**********HOJA DISENOS COMPUTADOR*****/
+    
+    /*******GALERÍA********/
+    .reticula a:hover img{
+        border-radius: 10px;
+    }
+    .grid{
+    grid-template-columns: repeat(4,1fr);
+}
+    .item4{
+        grid-area: 3/4/5/5;
+    }
+    .item7{
+        grid-area: 2/1/3/2;
+    }
+    .item1{
+        grid-area: 3/1/5/2;
+    }
+    .item10{
+        grid-area: 3/2/5/3;
+    }
+
+    /*********PIE COMPUTADOR****/
+    footer{
+        margin-top: 70px;
+    }
+    .pie{
+        padding: 20px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+}
+    .pie .redes{
+        order: +1;
+    }
+.redes li:not(:last-child){
+        margin-right: 20px;
+}
+    .logo_pie img{
+    width: 50%;       
+}
+    
+}
